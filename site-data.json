@@ -33,39 +33,22 @@
                 "target": "_blank"
             },
             {
-                "name": "How to Accelerate",
+                "name": "About Us",
                 "url": "#",
                 "target": "_blank"
             },
             {
-                "name": "School of ACCEL",
+                "name": "Technology",
                 "url": "#",
                 "target": "_blank"
             },
             {
-                "name": "My Journey",
+                "name": "Economic Impact",
                 "url": "#",
                 "target": "_blank"
             },
             {
-                "name": "ACCEL Tunnel",
-                "url": "#",
-                "target": "_blank"
-            }
-        ],
-        "resources": [
-            {
-                "name": "Resources",
-                "url": "#",
-                "target": "_blank"
-            },
-            {
-                "name": "Media & Press",
-                "url": "#",
-                "target": "_blank"
-            },
-            {
-                "name": "FAQ",
+                "name": "Project Phases",
                 "url": "#",
                 "target": "_blank"
             }
@@ -82,7 +65,7 @@
                 "target": "_blank"
             }
         ],
-        "copyright": "© Copyright ACCELERATE OR DIE. All rights reserved"
+        "copyright": "© Copyright THE ACCEL TUNNEL. All rights reserved"
     },
     "home": {
         "header": {
