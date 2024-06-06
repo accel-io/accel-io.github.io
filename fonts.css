@@ -144,9 +144,11 @@
 .text-medium {
     font-size: 16pt !important;
 }
+
 .text-medium-mob {
     font-size: 20pt !important;
 }
+
 .text-large-mob {
     font-size: 28pt !important;
 }
@@ -171,22 +173,103 @@
     font-weight: 250;
 }
 
+@media (max-width: 576px) {
+    .text-small {
+        font-size: 10pt !important;
+    }
+
+    .text-medium {
+        font-size: 13pt !important;
+    }
+
+    .text-large {
+        font-size: 18pt !important;
+    }
+
+    .text-xlarge {
+        font-size: 27pt !important;
+    }
+
+    .text-xxlarge {
+        font-size: 32pt !important;
+    }
+
+    .text-bold {
+        font-weight: 700;
+    }
+
+    .text-thin {
+        font-weight: 250;
+    }
+
+
+}
 
 @media (min-width: 576px) {
+    .text-small {
+        font-size: 11pt !important;
+    }
+
+    .text-medium {
+        font-size: 15pt !important;
+    }
+
+    .text-large {
+        font-size: 24pt !important;
+    }
+
+    .text-xlarge {
+        font-size: 38pt !important;
+    }
+
+    .text-xxlarge {
+        font-size: 48pt !important;
+    }
+
+    .text-bold {
+        font-weight: 700;
+    }
+
+    .text-thin {
+        font-weight: 250;
+    }
+
 
 }
 
 @media (min-width: 768px) {
+    .text-small {
+        font-size: 11pt !important;
+    }
 
+    .text-medium {
+        font-size: 15pt !important;
+    }
+
+    .text-large {
+        font-size: 24pt !important;
+    }
+
+    .text-xlarge {
+        font-size: 38pt !important;
+    }
+
+    .text-xxlarge {
+        font-size: 48pt !important;
+    }
+
+    .text-bold {
+        font-weight: 700;
+    }
+
+    .text-thin {
+        font-weight: 250;
+    }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992px) {}
 
-}
-
-@media (min-width: 1200px) {
-
-}
+@media (min-width: 1200px) {}
 
 @media (min-width: 1400px) {
     .text-small {

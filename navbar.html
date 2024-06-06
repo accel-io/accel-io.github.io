@@ -1,16 +1,19 @@
-<div class="navbar navbar-expand-lg navbar-dark mb-3 mt-1 justify-content-between px-4">
+<div class="navbar navbar-expand-lg navbar-dark mb-3 mt-1 justify-content-between px-lg-4">
     <button id="navbar-toggle-btn" class="navbar-toggler" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarToggleMain" aria-controls="navbarToggleMain" aria-expanded="false"
         aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand  text-large " style="font-family: 'GoodTimes',sans-serif;" href="./index.html"
+    <a class="navbar-brand  text-large mx-auto mx-lg-0" style="font-family: 'GoodTimes',sans-serif;" href="./index.html"
         data-query="navbar.title">
         <span class="text-small px-1">THE</span> ACCEL <span class="text-small px-1">Tunnel</span>
     </a>
-    <a data-query="navbar.button._" data-attribute="href" data-target="target" target="_blank">
-        <button class="btn bg-blue text-oxford text-bold btn-padding" style="padding-inline: 3rem !important;"
-            data-query="navbar.button.name">Contact
-            Us</button>
-    </a>
+    <div id="navbarToggleMain" class="collapse navbar-collapse light-text justify-content-end text-center">
+        <a data-query="navbar.button._" data-attribute="href" data-target="target" target="_blank">
+            <button class="btn bg-blue text-oxford text-bold btn-padding mt-lg-0 mt-3"
+                style="padding-inline: 3rem !important;" data-query="navbar.button.name">Contact
+                Us</button>
+        </a>
+    </div>
+
 </div>
