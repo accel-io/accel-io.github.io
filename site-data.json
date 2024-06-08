@@ -29,28 +29,28 @@
         "quick-links": [
             {
                 "name": "Home",
-                "url": "#",
-                "target": "_blank"
+                "url": "index.html",
+                "target": "_self"
             },
             {
                 "name": "About Us",
                 "url": "#",
-                "target": "_blank"
+                "target": "_self"
             },
             {
                 "name": "Technology",
                 "url": "#",
-                "target": "_blank"
+                "target": "_self"
             },
             {
                 "name": "Economic Impact",
                 "url": "#",
-                "target": "_blank"
+                "target": "_self"
             },
             {
                 "name": "Project Phases",
                 "url": "#",
-                "target": "_blank"
+                "target": "_self"
             }
         ],
         "legal": [
