@@ -434,6 +434,10 @@ body {
     width: 100vw;
 }
 
+.box:hover {
+    color: black !important;
+    box-shadow: 5px 10px 20px #b4eeff8f;
+}
 
 
 
