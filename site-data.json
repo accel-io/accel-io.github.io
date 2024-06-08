@@ -67,6 +67,20 @@
         ],
         "copyright": "© Copyright THE ACCEL TUNNEL. All rights reserved"
     },
+    "favicon": [
+        {
+            "url": "./fav/apple-touch-icon.png"
+        },
+        {
+            "url": "./fav/favicon-32x32.png"
+        },
+        {
+            "url": "./fav/favicon-16x16.png"
+        },
+        {
+            "url": "./fav/site.webmanifest"
+        }
+    ],
     "home": {
         "header": {
             "title": "Accelerating <br> <span class='text-blue'>Humanity <br></span> into Orbit",
