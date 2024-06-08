@@ -440,6 +440,41 @@ body {
 }
 
 
+.image-wrapper {
+    position: relative;
+    width: 300px;
+    height: 200px;
+
+    overflow: hidden;
+}
+
+.image-wrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.image-wrapper img.original {
+    opacity: 1;
+}
+
+.image-wrapper img.hover {
+    opacity: 0;
+}
+
+.image-wrapper:hover img.original {
+    opacity: 0;
+}
+
+.image-wrapper:hover img.hover {
+    opacity: 1;
+}
+
 
 /* */
 @media (max-width:1600px) {}
