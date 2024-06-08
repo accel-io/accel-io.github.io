@@ -12,7 +12,6 @@ Welcome to the GitHub repository for the ACCEL Tunnel Project's official website
 ## Project Structure
 
 - `index.html` - Main landing page.
-- `assets/` - Media files including images and icons.
 - `styles.css` - Stylesheets for the website's design.
 - `main.js` - JavaScript for site interactivity.
 - `site-data.json` - JSON file containing data for the landing page, facilitating easy content updates.
