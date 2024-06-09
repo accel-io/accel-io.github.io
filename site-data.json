@@ -10,19 +10,27 @@
     "footer": {
         "social-links": {
             "x": {
-                "url": "#",
+                "url": "https://x.com/accel_co",
                 "target": "_blank"
             },
             "instagram": {
-                "url": "#",
+                "url": "https://instagram.com/accel_co",
                 "target": "_blank"
             },
             "github": {
-                "url": "#",
+                "url": "https://github.com/accelerateordie",
                 "target": "_blank"
             },
             "discord": {
-                "url": "#",
+                "url": "https://discord.com/invite/XJWWptTH",
+                "target": "_blank"
+            },
+            "linkedin": {
+                "url": "https://www.linkedin.com/company/accel-co/",
+                "target": "_blank"
+            },
+            "youtube": {
+                "url": "https://www.youtube.com/@accel_company",
                 "target": "_blank"
             }
         },
