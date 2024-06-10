@@ -122,8 +122,8 @@ function navActiveLink() {
     });
 }
 
-function scrollToContent(index) {
+function scrollToContent(id) {
     $('html,body').animate({
-        scrollTop: $("#seg-" + index).offset().top
+        scrollTop: $('#' + id ).offset().top
     }, 'fast');
 }
