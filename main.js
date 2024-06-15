@@ -127,3 +127,93 @@ function scrollToContent(id) {
         scrollTop: $('#' + id ).offset().top
     }, 'fast');
 }
+
+var prevScrollPosition = 0;
+var op = 1.0;
+var lastScrollTime = 0;
+var throttleDelay = 10; 
+document.addEventListener('scroll', () => {
+    const now = Date.now();
+
+    if (now - lastScrollTime < throttleDelay) {
+        return;
+    }
+
+    lastScrollTime = now;
+
+    const scrollPosition = window.scrollY;
+    const element = document.getElementById('tunnel-header');
+
+    if (scrollPosition > 1000) {
+        op = 0.1;
+        element.style.opacity = op;
+        return;
+    } else if (scrollPosition == 0) {
+        op = 1;
+    }
+
+    if (prevScrollPosition < scrollPosition) {
+        op -= 0.02;
+        if (op < 0.1) {
+            op = 0.1;
+        }
+    } else if (prevScrollPosition > scrollPosition) {
+        op += 0.01;
+        if (op > 1) {
+            op = 1;
+        }
+    }
+
+    prevScrollPosition = scrollPosition;
+    element.style.opacity = op;
+});
+
+// milad animation scroller
+const items = document.querySelectorAll('.appear2');
+const itemsAppear = document.querySelectorAll('.appear3');
+const itemsAppears = document.querySelectorAll('.appear4');
+
+const active = function(entries){
+    entries.forEach(entry => {
+        if(entry.isIntersecting){
+        entry.target.classList.add('inview2'); 
+        }else{
+            entry.target.classList.remove('inview2'); 
+        }
+    });
+}
+const io2 = new IntersectionObserver(active);
+ for(let i=0; i < items.length; i++){
+    io2.observe(items[i]);
+ }
+
+
+ // appear
+ const active2 = function(entries){
+    entries.forEach(entry => {
+        if(entry.isIntersecting){
+        entry.target.classList.add('inview2'); 
+        }else{
+            entry.target.classList.remove('inview2'); 
+        }
+    });
+}
+const io3 = new IntersectionObserver(active2);
+ for(let i=0; i < itemsAppear.length; i++){
+    io2.observe(itemsAppear[i]);
+ }
+
+  // appear4
+  const active3 = function(entries){
+    entries.forEach(entry => {
+        if(entry.isIntersecting){
+        entry.target.classList.add('inview2'); 
+        }else{
+            entry.target.classList.remove('inview2'); 
+        }
+    });
+}
+const io4 = new IntersectionObserver(active3);
+ for(let i=0; i < itemsAppears.length; i++){
+    io2.observe(itemsAppears[i]);
+ }
