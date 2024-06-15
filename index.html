@@ -29,12 +29,7 @@
 </head>
 
 <body onload="loadJs()">
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        crossorigin="anonymous"></script>
-    <script src="./main.js"></script>
+
     <header class="header">
         <nav class="container" id="navbar" style="position: absolute; top:0;left: 0;right: 0;"></nav>
     </header>
@@ -48,12 +43,12 @@
                 <div class="ps-5 position-relative overflow-hidden mt-high w-100 container header-cont">
                     <div class="px-3 px-lg-0 w-lg-50">
                         <div class=" text-uppercase font-goodtimes text-xlarge text-narrow-height mt-high">
-                            <h1 class="text-uppercase font-goodtimes text-xlarge text-narrow-height"
+                            <h1 class="text-uppercase font-goodtimes text-xlarge text-narrow-height appear2"
                                 data-query="home.header.title">
                                 Accelerating <br> <span class="text-blue">Humanity <br></span> into Orbit
                             </h1>
                         </div>
-                        <div class="text-thin text-small my-5 text-narrow-height w-70 text-light text-justify"
+                        <div class="text-thin text-small my-5 text-narrow-height w-70 text-light text-justify appear2 home-header-subtitle"
                             data-query="home.header.subtitle">
                             Welcome to the ACCEL Tunnel Project. Our mission is to revolutionize space travel by
                             developing
@@ -62,7 +57,7 @@
                             within a vacuum-sealed tunnel, we aim to transport vast amounts of memetic and genetic
                             information into orbit, paving the way for human and machine integration beyond Earth.
                         </div>
-                        <a data-query="home.header.button._" data-attribute="href"
+                        <a data-query="home.header.button._" data-attribute="href" class="appear2"
                             onclick="scrollToContent('our-mission')" data-target="target" target="_self" href="#">
                             <button
                                 class="box btn font-goodtimes text-medium text-thin bg-blue btn-xpadding mb-high text-oxford"
@@ -74,10 +69,11 @@
             <div class="container ">
                 <!-- OUR MISSION -->
                 <div id="our-mission" class="text-center mb-high mt-high">
-                    <h2 class="font-goodtimes " data-query="home.segment-1.title">OUR <span
+                    <h2 class="font-goodtimes appear2" data-query="home.segment-1.title">OUR <span
                             class="text-blue">MISSION</span>
                     </h2>
-                    <p class="text-small mt-5 w-50 text-thin text-n100 mx-auto" data-query="home.segment-1.description">
+                    <p class="text-small mt-5 impact-container-1 text-thin text-n100 mx-auto appear2 home-segment-1-description"
+                        data-query="home.segment-1.description">
                         The
                         ACCEL Tunnel Project is dedicated to
                         expanding
@@ -90,11 +86,11 @@
                 <!-- OUR TECHNOLOGY -->
                 <div id="seg-1" class="row white-border bb-half">
                     <div>
-                        <h2 class="font-goodtimes text-xlarge text-narrow-height text-center mt-high text-uppercase"
+                        <h2 class="font-goodtimes text-large text-narrow-height text-center mt-high text-uppercase appear2 home-segment-2-title"
                             data-query="home.segment-2.title">OUR
                             <span class="text-blue">technology</span>
                         </h2>
-                        <p class="text-thin text-small text-center mt-5 w-50 mx-auto "
+                        <p class="text-thin text-small text-center mt-5 impact-container-1 mx-auto appear2 home-segment-2-subtitle"
                             data-query="home.segment-2.subtitle">
                             Our
                             technology leverages a coil gun mechanism within a vacuum-sealed tunnel to achieve efficient
@@ -112,13 +108,13 @@
                                     class="hover">
                             </div>
                             <div>
-                                <h5 class="text-uppercase font-goodtimes text-medium text-narrow-height my-3 mt-4"
+                                <h5 class="text-uppercase font-goodtimes text-medium text-narrow-height my-3 mt-4 appear4"
                                     data-query="home.segment-2.cards.0.title">Coil Gun <br> <span class="text-blue">
                                         Mechanism</span>
                                 </h5>
                             </div>
                             <div style="height: 12rem;">
-                                <p class="text-thin text-n300 text-small text-narrow-height mt-4"
+                                <p class="text-thin text-n300 text-small text-narrow-height mt-4 appear4"
                                     data-query="home.segment-2.cards.0.description">The coil gun mechanism uses
                                     electromagnetic
                                     fields to accelerate payloads. Unlike rail guns, which cause excessive friction and
@@ -135,13 +131,13 @@
                             </div>
 
                             <div>
-                                <h5 class="text-uppercase font-goodtimes text-medium text-narrow-height my-3 mt-4"
+                                <h5 class="text-uppercase font-goodtimes text-medium text-narrow-height my-3 mt-4 appear4"
                                     data-query="home.segment-2.cards.1.title">EMF <br>
                                     <span class="text-blue">Fields</span>
                                 </h5>
                             </div>
                             <div style="height: 12rem;">
-                                <p class="text-thin text-n300 text-small text-narrow-height mt-4"
+                                <p class="text-thin text-n300 text-small text-narrow-height mt-4 appear4"
                                     data-query="home.segment-2.cards.1.description">Dual EMF fields are employed to
                                     center
                                     the
@@ -161,14 +157,14 @@
                             </div>
 
                             <div>
-                                <h5 class="text-uppercase font-goodtimes text-medium text-narrow-height my-3 mt-4"
+                                <h5 class="text-uppercase font-goodtimes text-medium text-narrow-height my-3 mt-4 appear4"
                                     data-query="home.segment-2.cards.2.title">Vacuum and <br> <span
                                         class="text-blue">Plasma
                                         Shield</span>
                                 </h5>
                             </div>
                             <div style="height: 12rem;">
-                                <p class="text-thin text-n300 text-small text-narrow-height mt-4"
+                                <p class="text-thin text-n300 text-small text-narrow-height mt-4 appear4"
                                     data-query="home.segment-2.cards.2.description">Maintaining a vacuum along the 80km
                                     tunnel is
                                     crucial for reducing air resistance. Continuous vacuum pumps and a plasma shield at
@@ -187,8 +183,8 @@
                 <div class="row text-center">
                     <div class="col-12 white-border bt-half bb-half p-lg-5 d-flex justify-content-center"
                         id="bg-dots-tunnel">
-                        <h3 class="text-medium font-goodtimes mt-high mb-high w-70 text-thin" style="line-height: 1.6;"
-                            data-query="home.segment-3.text">
+                        <h3 class="text-medium font-goodtimes mt-high mb-high w-70 text-thin appear2"
+                            style="line-height: 1.6;" data-query="home.segment-3.text">
                             Our system reduces the cost of launching payloads to orbit to <span class="text-blue">$1/kg,
                                 a
                                 1000x improvement</span> over traditional rocket launches. This cost-efficiency opens
@@ -201,46 +197,46 @@
                 <!-- ECONOMIC IMPACT -->
                 <div id="seg-2" class="row white-border bt-half bb-half position-relative overflow-hidden">
                     <div class="p-5 m-0">
-                        <h2 class="font-goodtimes text-xlarge text-narrow-height text-center mt-high"
+                        <h2 class="font-goodtimes text-xlarge text-narrow-height text-center mt-high appear2"
                             data-query="home.segment-4.title">ECONOMIC
                             <span class="text-blue"> IMPACT</span>
                         </h2>
                     </div>
-                    <div class="row align-center justify-content-center pb-3 mt-5 impact-container">
+                    <div class="row m-0 align-center justify-content-center pb-3 impact-container">
                         <!-- 1 -->
-                        <div class="col-12 col-lg-4   px-4">
-                            <h4 class="font-goodtimes text-medium  text-center"
+                        <div class="col-12 col-lg-4 px-4 mt-5">
+                            <h4 class="font-goodtimes text-medium  text-center appear4"
                                 data-query="home.segment-4.items.0.title">
                                 Cost
                                 <br> <span class="text-blue">Analysis</span>
                             </h4>
-                            <p class="text-xsmall text-thin text-center text-n300 mt-4"
+                            <p class="text-xsmall text-thin text-center text-n300 mt-4 appear4"
                                 data-query="home.segment-4.items.0.description">
                                 Our system reduces the cost of launching payloads to orbit to $1/kg, a 1000x improvement
                                 over traditional rocket launches. This cost-efficiency opens new opportunities for space
                                 exploration and resource management.</p>
                         </div>
                         <!-- 2 -->
-                        <div class=" col-12 col-lg-4 px-4">
-                            <h4 class="font-goodtimes text-medium  text-center"
+                        <div class=" col-12 col-lg-4 px-4 mt-5">
+                            <h4 class="font-goodtimes text-medium  text-center appear4"
                                 data-query="home.segment-4.items.1.title">
                                 Economic
                                 <br> <span class="text-blue">Benefits</span>
 
                             </h4>
-                            <p class="text-xsmall text-thin text-center text-n300 mt-4"
+                            <p class="text-xsmall text-thin text-center text-n300 mt-4 appear4"
                                 data-query="home.segment-4.items.1.description">
                                 Students rotate through subjects in 20-minute sessions, followed by 10 minutes of
                                 testing,
                                 ensuring engagement and personalized learning.</p>
                         </div>
                         <!-- 3 -->
-                        <div class=" col-12 col-lg-4 px-4">
-                            <h4 class="font-goodtimes text-medium  text-center"
+                        <div class=" col-12 col-lg-4 px-4 mt-5">
+                            <h4 class="font-goodtimes text-medium  text-center appear4"
                                 data-query="home.segment-4.items.2.title">
                                 Revenue <br> <span class="text-blue">Streams</span>
                             </h4>
-                            <p class="text-xsmall text-thin text-center text-n300 mt-4"
+                            <p class="text-xsmall text-thin text-center text-n300 mt-4 appear4"
                                 data-query="home.segment-4.items.2.description">
                                 Instead of waiting until 18-21 for full agency, this system maximizes memetic content
                                 upload, preparing graduates to contribute to humanity's acceleration.</p>
@@ -279,34 +275,34 @@
             margin-left: calc(-.5* var(--bs-gutter-x));"
                     class="white-border bb-half p-5 bt-half position-relative text-center overflow-hidden">
                     <img src="./img/bg-phases.svg" class="w-lg-75" id="bg-phases" alt="Tunnel">
-                    <h2 class="font-goodtimes mt-5 " data-query="home.segment-5.title">Project <span
+                    <h2 class="font-goodtimes mt-5 appear2" data-query="home.segment-5.title">Project <span
                             class="text-blue">Phases</span> </h2>
-                    <p class="text-xsmall text-thin text-center text-n300 mt-4 w-lg-50 mx-auto"
+                    <p class="text-xsmall text-thin text-center text-n300 mt-4 w-lg-50 mx-auto appear2 home-segment-5-subtitle"
                         data-query="home.segment-5.subtitle">Our project is structured in
                         progressive
                         phases to ensure technical feasibility and scalability. <br> Each
                         phase will build on the previous one, increasing the tunnel length and launch parameters.</p>
-                    <div class="mx-auto px-md-5" style="margin-top: 10rem;margin-bottom: 10rem;">
+                    <div class="mx-auto px-md-5" >
                         <div class="row justify-content-between position-relative mt-high mb-lg-high">
                             <!-- 1 -->
                             <div class="col-lg-3 col-12 ms-lg-10">
-                                <h4 class="font-goodtimes text-medium text-start"
+                                <h4 class="font-goodtimes text-medium text-start appear4"
                                     data-query="home.segment-5.items.0.title">
                                     <span class="text-blue">Phase 1:</span> <br>
                                     100m Prototype
                                 </h4>
-                                <p class="text-xsmall text-thin text-n300 mt-4 text-start w-lg-75 "
+                                <p class="text-xsmall text-thin text-n300 mt-4 text-start w-lg-75 appear4"
                                     data-query="home.segment-5.items.0.description">
                                     Initial testing phase to validate the coil gun mechanism and vacuum conditions.</p>
                             </div>
                             <!-- 2 -->
                             <div class="col-lg-3 col-12 ">
-                                <h4 class="font-goodtimes text-medium text-start" style="width: max-content;"
+                                <h4 class="font-goodtimes text-medium text-start appear4" style="width: max-content;"
                                     data-query="home.segment-5.items.1.title">
                                     <span class="text-blue">Phase 2:</span> <br>
                                     1km Segment
                                 </h4>
-                                <p class="text-xsmall text-thin text-n300 mt-4 text-start w-lg-75"
+                                <p class="text-xsmall text-thin text-n300 mt-4 text-start w-lg-75 appear4"
                                     data-query="home.segment-5.items.1.description">
                                     Scaling up to test sustained acceleration and EMF field stability.</p>
                             </div>
@@ -314,23 +310,23 @@
                         <div class="row justify-content-between mt-lg-high">
                             <!-- 3 -->
                             <div class="col-lg-3 col-12 ms-lg-10">
-                                <h4 class="font-goodtimes text-medium text-start"
+                                <h4 class="font-goodtimes text-medium text-start appear4"
                                     data-query="home.segment-5.items.2.title">
                                     <span class="text-blue"> phase 3:</span> <br> 10km Section
                                 </h4>
-                                <p class="text-xsmall text-thin text-n300 mt-4 text-start w-lg-75"
+                                <p class="text-xsmall text-thin text-n300 mt-4 text-start w-lg-75 appear4"
                                     data-query="home.segment-5.items.2.description">
                                     Further testing to refine material science
                                     and energy transfer methods.</p>
                             </div>
                             <!-- 4 -->
                             <div class="col-lg-3 col-12 ">
-                                <h4 class="font-goodtimes text-medium text-start " style="width: max-content;"
+                                <h4 class="font-goodtimes text-medium text-start appear4" style="width: max-content;"
                                     data-query="home.segment-5.items.3.title">
                                     <span class="text-blue">phase 4:</span> <br>
                                     80km Full Tunnel
                                 </h4>
-                                <p class="text-xsmall text-thin text-n300 mt-4 text-start w-lg-75 "
+                                <p class="text-xsmall text-thin text-n300 mt-4 text-start w-lg-75 appear4"
                                     data-query="home.segment-5.items.3.description">
                                     Final phase to achieve full operational capability, launching payloads to Mach 20.
                                 </p>
@@ -355,12 +351,12 @@
                 justify-content: center;">
                         <div class="pt-5 pt-lg-0">
                             <div class=" text-uppercase font-goodtimes text-xxlarge text-narrow-height ">
-                                <h1 class="text-uppercase font-goodtimes text-xxlarge text-narrow-height"
+                                <h1 class="text-uppercase font-goodtimes text-xxlarge text-narrow-height appear2"
                                     data-query="home.segment-6.title">
                                     FUTURE <span class="text-blue">GOALS</span>
                                 </h1>
                             </div>
-                            <div class="text-thin text-medium my-5 text-narrow-height text-n100 text-justify"
+                            <div class="text-thin text-medium my-5 text-narrow-height text-n100 appear2"
                                 data-query="home.segment-6.subtitle">
                                 With advancements in material science and energy transfer technologies, the ACCEL Tunnel
                                 will
@@ -384,6 +380,12 @@
             <footer class="container" id="footer"></footer>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
 </body>
 
 </html>
