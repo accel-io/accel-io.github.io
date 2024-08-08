@@ -23,4 +23,4 @@ We welcome contributions! Please fork this repository, make your changes, and su
 
 ## Contact
 
-For more information, visit the [official ACCEL website](https://accel.io)
+For more information, visit the [official ACCEL website](https://acel.space)
