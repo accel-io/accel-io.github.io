@@ -41,11 +41,6 @@
         "quick-links": [
             {
                 "name": "Home",
-                "url": "index.html",
-                "target": "_self"
-            },
-            {
-                "name": "About Us",
                 "url": "#",
                 "target": "_self"
             },
@@ -63,6 +58,16 @@
                 "name": "Project Phases",
                 "url": "#",
                 "target": "_self"
+            },
+            {
+                "name": "Accelerate or Die",
+                "url": "https://www.acel.org",
+                "target": "_blank"
+            },
+            {
+                "name": "School of ACEL",
+                "url": "#",
+                "target": "_blank"
             }
         ],
         "legal": [
