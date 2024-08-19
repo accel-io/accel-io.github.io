@@ -9,6 +9,7 @@ function loadNavbar() {
     };
     xhr.send();
 }
+
 function loadJs() {
     loadNavbar();
     updateFavicon();
