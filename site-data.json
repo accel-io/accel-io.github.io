@@ -1,6 +1,6 @@
 {
     "navbar": {
-        "title": "<span class='text-small px-1'>THE</span> ACCEL <span class='text-small px-1'>Tunnel</span>",
+        "title": "<span class='text-small px-1'>THE</span> ACEL <span class='text-small px-1'>Tunnel</span>",
         "button": {
             "name": "Contact Us",
             "url": "#",
@@ -41,11 +41,6 @@
         "quick-links": [
             {
                 "name": "Home",
-                "url": "index.html",
-                "target": "_self"
-            },
-            {
-                "name": "About Us",
                 "url": "#",
                 "target": "_self"
             },
@@ -63,6 +58,16 @@
                 "name": "Project Phases",
                 "url": "#",
                 "target": "_self"
+            },
+            {
+                "name": "Accelerate or Die",
+                "url": "https://www.acel.org",
+                "target": "_blank"
+            },
+            {
+                "name": "School of ACEL",
+                "url": "#",
+                "target": "_blank"
             }
         ],
         "legal": [
@@ -82,7 +87,7 @@
     "home": {
         "header": {
             "title": "Accelerating <br> <span class='text-blue'>Humanity <br></span> into Orbit",
-            "subtitle": "Welcome to the ACCEL Tunnel Project. Our mission is to revolutionize space travel by developing a highly reusable, cost-effective launch system. By leveraging cutting-edge coil gun technology within a vacuum-sealed tunnel, we aim to transport vast amounts of memetic and genetic information into orbit, paving the way for human and machine integration beyond Earth.",
+            "subtitle": "Welcome to the ACEL Tunnel Project. Our mission is to revolutionize space travel by developing a highly reusable, cost-effective launch system. By leveraging cutting-edge coil gun technology within a vacuum-sealed tunnel, we aim to transport vast amounts of memetic and genetic information into orbit, paving the way for human and machine integration beyond Earth.",
             "button": {
                 "name": "LEARN MORE",
                 "url": "#",
@@ -91,7 +96,7 @@
         },
         "segment-1": {
             "title": "OUR <span class='text-blue'>MISSION</span>",
-            "description": "The ACCEL Tunnel Project is dedicated to expanding human and machine capabilities by developing a groundbreaking kinetic launch system. Our goal is to facilitate the transfer of intelligence and resources to other planets and stars, ensuring the safety and evolution of both biological and silicon-based life forms."
+            "description": "The ACEL Tunnel Project is dedicated to expanding human and machine capabilities by developing a groundbreaking kinetic launch system. Our goal is to facilitate the transfer of intelligence and resources to other planets and stars, ensuring the safety and evolution of both biological and silicon-based life forms."
         },
         "segment-2": {
             "title": "OUR <span class='text-blue'>technology",
@@ -123,7 +128,7 @@
                 },
                 {
                     "title": "Economic <br> <span class='text-blue'>Benefits</span>",
-                    "description": "The ACCEL Tunnel project will generate significant economic benefits for local communities, including job creation and increased GDP. The construction and operation of the tunnel will stimulate local economies and foster technological advancements."
+                    "description": "The ACEL Tunnel project will generate significant economic benefits for local communities, including job creation and increased GDP. The construction and operation of the tunnel will stimulate local economies and foster technological advancements."
                 },
                 {
                     "title": "Revenue <br> <span class='text-blue'>Streams</span>",
@@ -155,7 +160,7 @@
         },
         "segment-6": {
             "title": "FUTURE <span class='text-blue'>GOALS</span>",
-            "subtitle": "With advancements in material science and energy transfer technologies, the ACCEL Tunnel will continue to improve, increasing efficiency and payload capacity. Our ultimate goal is to make space exploration and resource management more accessible and sustainable."
+            "subtitle": "With advancements in material science and energy transfer technologies, the ACEL Tunnel will continue to improve, increasing efficiency and payload capacity. Our ultimate goal is to make space exploration and resource management more accessible and sustainable."
         }
     }
 }

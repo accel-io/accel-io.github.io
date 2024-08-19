@@ -1,6 +1,6 @@
-# ACCEL Official Website
+# ACEL Official Website
 
-Welcome to the GitHub repository for the ACCEL Tunnel Project's official website. This site highlights ACCEL's mission to revolutionize space launches with innovative and cost-effective technology.
+Welcome to the GitHub repository for the ACEL Tunnel Project's official website. This site highlights ACEL's mission to revolutionize space launches with innovative and cost-effective technology.
 
 
 ## Features
@@ -23,4 +23,4 @@ We welcome contributions! Please fork this repository, make your changes, and su
 
 ## Contact
 
-For more information, visit the [official ACCEL website](https://acel.space)
+For more information, visit the [official ACEL website](https://acel.space)
