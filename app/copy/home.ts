@@ -1,0 +1,79 @@
+export const homeCopy = {
+    "header": {
+        "title": "Accelerating <br> <span class='text-blue'>Humanity <br></span> into Orbit",
+        "subtitle": "Welcome to the ACEL Tunnel Project. Our mission is to revolutionize space travel by developing a highly reusable, cost-effective launch system. By leveraging cutting-edge coil gun technology within a vacuum-sealed tunnel, we aim to transport vast amounts of memetic and genetic information into orbit, paving the way for human and machine integration beyond Earth.",
+        "button": {
+            "name": "LEARN MORE",
+            "url": "#our-mission",
+            "target": "_self"
+        }
+    },
+    "segment_1": {
+        "title": "OUR <span class='text-blue'>MISSION</span>",
+        "description": "The ACEL Tunnel Project is dedicated to expanding human and machine capabilities by developing a groundbreaking kinetic launch system. Our goal is to facilitate the transfer of intelligence and resources to other planets and stars, ensuring the safety and evolution of both biological and silicon-based life forms."
+    },
+    "segment_2": {
+        "title": "OUR <span class='text-blue'>technology",
+        "subtitle": "Our technology leverages a coil gun mechanism within a vacuum-sealed tunnel to achieve efficient and cost-effective space launches. By accelerating payloads smoothly to Mach 20, we can safely transport biological and silicon-based payloads into orbit.",
+        "cards": [
+            {
+                "title": "Coil Gun <br> <span class='text-blue'> Mechanism</span>",
+                "description": "The coil gun mechanism uses electromagnetic fields to accelerate payloads. Unlike rail guns, which cause excessive friction and wear, our coil gun operates in a vacuum to reduce resistance and energy loss."
+            },
+            {
+                "title": "EMF <br> <span class='text-blue'>Fields</span>",
+                "description": "Dual EMF fields are employed to center the payload and propel it through the tunnel. The first field keeps the payload aligned, while the second pulses to generate the necessary acceleration."
+            },
+            {
+                "title": "Vacuum and <br> <span class='text-blue'>Plasma Shield</span>",
+                "description": "Maintaining a vacuum along the 80km tunnel is crucial for reducing air resistance. Continuous vacuum pumps and a plasma shield at the tunnel exit ensure the vacuum is preserved, allowing for efficient energy transfer."
+            }
+        ]
+    },
+    "segment_3": {
+        "text": "Our system reduces the cost of launching payloads to orbit to <span class='text-blue'>$1/kg, a1000x improvement</span> over traditional rocket launches. This cost-efficiency opens new opportunities for space exploration and resource management."
+    },
+    "segment_4": {
+        "title": "ECONOMIC <span class='text-blue'> IMPACT</span>",
+        "items": [
+            {
+                "title": "Cost <br> <span class='text-blue'>Analysis</span>",
+                "description": "Our system reduces the cost of launching payloads to orbit to $1/kg, a 1000x improvement over traditional rocket launches. This cost-efficiency opens new opportunities for space exploration and resource management."
+            },
+            {
+                "title": "Economic <br> <span class='text-blue'>Benefits</span>",
+                "description": "The ACEL Tunnel project will generate significant economic benefits for local communities, including job creation and increased GDP. The construction and operation of the tunnel will stimulate local economies and foster technological advancements."
+            },
+            {
+                "title": "Revenue <br> <span class='text-blue'>Streams</span>",
+                "description": "Instead of waiting until 18-21 for full agency, this system maximizes memetic content upload, preparing graduates to contribute to humanity's acceleration."
+            }
+        ]
+    },
+    "segment_5": {
+        "title": "Project <span class='text-blue'>Phases</span> ",
+        "subtitle": "Our project is structured in progressive phases to ensure technical feasibility and scalability. <br> Each phase will build on the previous one, increasing the tunnel length and launch parameters.",
+        "items": [
+            {
+                "title": "<span class='text-blue'>Phase 1:</span> <br> 100m Prototype",
+                "description": "Initial testing phase to validate the coil gun mechanism and vacuum conditions."
+            },
+            {
+                "title": "<span class='text-blue'>Phase 2:</span> <br> 1km Segment",
+                "description": "Initial testing phase to validate the coil gun mechanism and vacuum conditions."
+            },
+            {
+                "title": "<span class='text-blue'> phase 3:</span> <br> 10km Section",
+                "description": "Further testing to refine material science and energy transfer methods."
+            },
+            {
+                "title": "<span class='text-blue'>phase 4:</span> <br> 80km Full Tunnel",
+                "description": "Final phase to achieve full operational capability, launching payloads to Mach 20."
+            }
+        ]
+    },
+    "segment_6": {
+        "title": "FUTURE <span class='text-blue'>GOALS</span>",
+        "subtitle": "With advancements in material science and energy transfer technologies, the ACEL Tunnel will continue to improve, increasing efficiency and payload capacity. Our ultimate goal is to make space exploration and resource management more accessible and sustainable."
+    }
+}
