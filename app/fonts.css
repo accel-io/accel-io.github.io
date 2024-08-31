@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: 'Helvetica Neue';
     src: url('/fonts/helveticaneueblack-webfont.woff2') format('woff2'),
         url('/fonts/helveticaneueblack-webfont.woff') format('woff');
@@ -131,7 +131,7 @@
     font-style: normal;
     font-weight: normal;
     src: local('GoodTimesRg-Regular'), url('/fonts/goodtimesrg.woff') format('woff');
-}
+} */
 
 .text-xsmall {
     font-size: 10pt !important;
