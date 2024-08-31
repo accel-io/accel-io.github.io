@@ -1,34 +1,9 @@
 import type { Metadata } from "next";
-import localFont from 'next/font/local'
+import { Helvetica_Neue } from '@/app/fonts'
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.scss";
 import Header from "./shared-components/header";
 import Footer from "./shared-components/footer";
-
-// const roboto = localFont({
-//   src: [
-//     {
-//       path: './../public/fonts/helveticaneueblack-webfont.woff2',
-//       weight: '400',
-//       style: 'normal',
-//     },
-//     {
-//       path: '../fonts/helveticaneueblackitalic-webfont.woff2',
-//       weight: '400',
-//       style: 'italic',
-//     },
-//     {
-//       path: '../fonts/helveticaneuebold-webfont.woff2',
-//       weight: '700',
-//       style: 'normal',
-//     },
-//     {
-//       path: '../fonts/helveticaneuebolditalic-webfont.woff2',
-//       weight: '700',
-//       style: 'italic',
-//     }
-//   ],
-// })
 
 export const metadata: Metadata = {
   title: "The ACEL Tunnel",
@@ -74,9 +49,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body >
+      <body className={Helvetica_Neue.className} >
         <Header />
-        <div className="content  overflow-hidden position-relative">
+        <div className="content overflow-hidden position-relative">
           <div className="mx-2 mx-lg-5">
             {children}
           </div>

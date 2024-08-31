@@ -2,6 +2,7 @@ import Link from "next/link";
 import { footerCopy } from "../copy/footer";
 import Image from "next/image";
 import { navbarCopy } from "../copy/navbar";
+import { GoodTimes } from '@/app/fonts'
 
 export default function Footer() {
     return (
@@ -10,7 +11,7 @@ export default function Footer() {
                 <div className="row mt-high">
                     <div className="col-lg-6 d-flex flex-column justify-content-between">
                         <Link href="#" className="mb-5 text-decoration-none">
-                            <h3 className="font-goodtimes text-xlarge text-light" dangerouslySetInnerHTML={{ __html: navbarCopy.title }}></h3>
+                            <h3 className={`text-xlarge text-light ${GoodTimes.className}`} dangerouslySetInnerHTML={{ __html: navbarCopy.title }}></h3>
                         </Link>
                         {/* <!-- Social Links --> */}
                         <div className="my-4">
